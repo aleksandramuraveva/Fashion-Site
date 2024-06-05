@@ -1,0 +1,58 @@
+@import "reset.css";
+
+/*importing google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/*........BASE.........*/
+
+:root {
+	--black: #22262A;
+	--white: #fff;
+	--fs-15: 0.938rem;
+	--fs-18: 0.938rem;
+	--fs-20: 0.938rem;
+	--fs-25: 0.938rem;
+	--fs-80: 0.938rem;
+	--fw-300: 300;
+	--fw-400: 300;
+	--fw-500: 300;
+	--fw-600: 300;
+	--fw-700: 300;
+	--zi-1: 9;
+	--zi-2: 99;
+	--zi-3: 999;
+	
+}
+
+body {
+	background-color: var(--white);
+	font-family: "Poppins", sans-serif;
+	color: var(--black);
+	font-size: var(--fs-15);
+}
+
+html, body {
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1138px;
+	margin-inline: auto;
+	overflow: hidden;
+	/*min-height: 100vh;*/
+}
+
+
+/*........REUSABLE.........*/
+
+
+/*........MENU.........*/
+/*........HERO section.........*/
+/*........ section.........*/
+/*........ section.........*/
+/*........ section.........*/
+/*........ section.........*/
+/*........ section.........*/
+/*........FOOTER.........*/
