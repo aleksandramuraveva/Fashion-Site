@@ -55,6 +55,15 @@ button {
   cursor: pointer;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
 /*........REUSABLE.........*/
 
 button {
@@ -62,7 +71,31 @@ button {
   font-size: var(--fs-18);
   background-color: var(--black);
   color: var(--white);
+  white-space: nowrap;
 }
+
+.col {
+  max-width: 34.438rem;
+  width: 100%;
+
+}
+
+.section-title,
+.section-text {
+  text-align: center;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-top: 6.938rem;
+  line-height: 1.875rem;
+  font-weight: var(--fw-700);
+}
+
+.section-text {
+
+}
+
 /*........HEADER..............*/
 /*........nav.........*/
 nav {
@@ -153,7 +186,7 @@ nav {
 .discover-button,
 .shop-button {
   text-align: center;
-  padding: 0.53rem 0rem;
+  padding: 0.25rem 0rem;
   width: 100%;
   max-width: 147px;
 }
@@ -163,7 +196,38 @@ nav {
 }
 
 /*........ CATEGORY.........*/
+
+.category {
+  padding-top: 5.67rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.img-container {
+  margin-top: 1.233rem;
+  flex-wrap: wrap;
+}
+
+.categoty-button {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 1.875rem;
+  left: 0;
+  padding: 0.25rem 2rem;
+  margin-left: 3.25rem;
+  max-width: 203px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.relative {
+  position: relative;
+}
+
 /*........ WOMEN'S SECTION.........*/
+
+
+
 /*........ MEN'S SECTION.........*/
 /*........ AVONE STYLES.........*/
 /*........COLLECTON.........*/
