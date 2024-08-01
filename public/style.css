@@ -199,6 +199,8 @@ nav {
 
 .category {
   padding-top: 5.67rem;
+  justify-content: center;
+  gap: 1.8rem;
   flex-wrap: wrap;
   align-items: flex-start;
 }
