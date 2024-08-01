@@ -1,58 +1,170 @@
-@import "reset.css";
+@import 'reset.css';
 
 /*importing google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-
 /*........BASE.........*/
 
 :root {
-	--black: #22262A;
-	--white: #fff;
-	--fs-15: 0.938rem;
-	--fs-18: 0.938rem;
-	--fs-20: 0.938rem;
-	--fs-25: 0.938rem;
-	--fs-80: 0.938rem;
-	--fw-300: 300;
-	--fw-400: 300;
-	--fw-500: 300;
-	--fw-600: 300;
-	--fw-700: 300;
-	--zi-1: 9;
-	--zi-2: 99;
-	--zi-3: 999;
-	
+  --black: #22262a;
+  --white: #fff;
+  --fs-15: 0.938rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-25: 1.563rem;
+  --fs-28: 1.75rem;
+  --fs-80: 5rem;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --zi-1: 9;
+  --zi-2: 99;
+  --zi-3: 999;
 }
 
 body {
-	background-color: var(--white);
-	font-family: "Poppins", sans-serif;
-	color: var(--black);
-	font-size: var(--fs-15);
+  background-color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: var(--fs-15);
+  line-height: 1.688rem;/*27px*/
 }
 
-html, body {
-	scroll-behavior: smooth;
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .wrapper {
-	width: 100%;
-	max-width: 1138px;
-	margin-inline: auto;
-	overflow: hidden;
-	/*min-height: 100vh;*/
+	border: 1px dashed green;
+  width: 98%;
+  max-width: 1133px;
+  margin-inline: auto;
+  overflow: hidden;
+  /*min-height: 100vh;*/
 }
 
+a,
+i {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
 
 /*........REUSABLE.........*/
 
+button {
+	font-weight: var(--fw-500);
+	font-size: var(--fs-18);
+	background-color: var(--black);
+	color: var(--white);
+}
+/*........HEADER..............*/
+/*........nav.........*/
+nav {
+  text-transform: uppercase;
+}
 
-/*........MENU.........*/
-/*........HERO section.........*/
-/*........ section.........*/
-/*........ section.........*/
-/*........ section.........*/
-/*........ section.........*/
-/*........ section.........*/
+.navbar {
+  margin-top: 1.688rem;
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-28);
+  line-height: 2.625rem;
+}
+
+.navbar__links {
+  display: flex;
+  width: 100%;
+  max-width: 32.938rem;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.688rem;
+  margin-inline: 1rem;
+}
+
+.navbar__hamburger {
+  display: none;
+}
+
+.navbar__buttons {
+  width: 100%;
+  max-width: 9.25rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-18);
+}
+
+/*........hero.........*/
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-color: azure;
+  margin-top: 1.313rem;
+  background-image: url('images/bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*position: relative;*/
+}
+
+.hero-content {
+  border: 1px solid red;
+  max-width: 28.313rem;
+  margin-left: auto;
+  margin-top: 1rem;
+  margin-top: 27.75rem;
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+
+.hero-subtitle {
+	font-size: var(--fs-18);
+	font-weight: var(--fw-500);
+}
+
+.hero-title {
+	font-weight: var(--fw-700);
+	font-size: var(--fs-80);
+	padding: 0.94rem 0;
+	line-height: 7.5rem;
+}
+
+.hero-text {
+	font-weight: var(--fw-500);
+	font-size: var(--fs-18);
+	text-transform: lowercase;
+}
+
+.hero-buttons {
+	margin-top: 1.688rem;
+}
+
+.discover-button,
+.shop-button {
+	text-align: center;
+	padding: 0.53rem 0rem;
+	width: 100%;
+	max-width: 147px;
+}
+
+.discover-button {
+	margin-right: 2.125rem;
+}
+
+/*........ CATEGORY.........*/
+/*........ WOMEN'S SECTION.........*/
+/*........ MEN'S SECTION.........*/
+/*........ AVONE STYLES.........*/
+/*........COLLECTON.........*/
 /*........FOOTER.........*/
