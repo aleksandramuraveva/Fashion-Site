@@ -29,7 +29,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--black);
   font-size: var(--fs-15);
-  line-height: 1.688rem;/*27px*/
+  line-height: 1.688rem; /*27px*/
 }
 
 html,
@@ -38,7 +38,7 @@ body {
 }
 
 .wrapper {
-	border: 1px dashed green;
+  border: 1px dashed green;
   width: 98%;
   max-width: 1133px;
   margin-inline: auto;
@@ -58,10 +58,10 @@ button {
 /*........REUSABLE.........*/
 
 button {
-	font-weight: var(--fw-500);
-	font-size: var(--fs-18);
-	background-color: var(--black);
-	color: var(--white);
+  font-weight: var(--fw-500);
+  font-size: var(--fs-18);
+  background-color: var(--black);
+  color: var(--white);
 }
 /*........HEADER..............*/
 /*........nav.........*/
@@ -129,37 +129,37 @@ nav {
 }
 
 .hero-subtitle {
-	font-size: var(--fs-18);
-	font-weight: var(--fw-500);
+  font-size: var(--fs-18);
+  font-weight: var(--fw-500);
 }
 
 .hero-title {
-	font-weight: var(--fw-700);
-	font-size: var(--fs-80);
-	padding: 0.94rem 0;
-	line-height: 7.5rem;
+  font-weight: var(--fw-700);
+  font-size: var(--fs-80);
+  padding: 0.94rem 0;
+  line-height: 7.5rem;
 }
 
 .hero-text {
-	font-weight: var(--fw-500);
-	font-size: var(--fs-18);
-	text-transform: lowercase;
+  font-weight: var(--fw-500);
+  font-size: var(--fs-18);
+  text-transform: lowercase;
 }
 
 .hero-buttons {
-	margin-top: 1.688rem;
+  margin-top: 1.688rem;
 }
 
 .discover-button,
 .shop-button {
-	text-align: center;
-	padding: 0.53rem 0rem;
-	width: 100%;
-	max-width: 147px;
+  text-align: center;
+  padding: 0.53rem 0rem;
+  width: 100%;
+  max-width: 147px;
 }
 
 .discover-button {
-	margin-right: 2.125rem;
+  margin-right: 2.125rem;
 }
 
 /*........ CATEGORY.........*/
